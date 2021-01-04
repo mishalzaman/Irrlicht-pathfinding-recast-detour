@@ -27,3 +27,10 @@ This header file is a wrapper for `ai_util_RecastDetour`. It takes a filename of
     /* return an std::vector<core::vector3df> which contains the path between the aPosition
        and bPosition. This vector can then be used to move the object based on a delta time. */
     std::vector<core::vector3df> path = pathFinding->getPath(aPosition, bPosition);
+    
+    while(){
+        ...
+        // This will render the path. Useful to debug the path data.
+        pathFinding->renderDebugPath(path, driver);
+    }
+
