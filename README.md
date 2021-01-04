@@ -34,3 +34,4 @@ This header file is a wrapper for `ai_util_RecastDetour`. It takes a filename of
         pathFinding->renderDebugPath(path, driver);
     }
 
+![Example](example_pathfinding.gif)
